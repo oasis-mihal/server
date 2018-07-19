@@ -1,13 +1,7 @@
 {
     "httpConfig":
     {
-        "port": 12776
-    },
-    "httpsConfig":
-    {
-        "port": 12777,
-        "ssl_key_file": "ssl.key",
-        "ssl_cert_file": "ssl.crt"
+        "port": 8080
     },
     "maxPayload": 
         1048576,
