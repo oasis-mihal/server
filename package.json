@@ -15,5 +15,12 @@
   },
   "scripts": {
     "tsc": "tsc"
-    }
+    },
+  "repository": {
+
+    "type": "git",
+
+    "url": "http://github.com/openshift/nodejs-ex.git"
+
+  }
 }
