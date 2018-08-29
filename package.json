@@ -20,7 +20,7 @@
 
     "type": "git",
 
-    "url": "http://github.com/openshift/nodejs-ex.git"
+    "url": "http://github.com/oasis-mihal/server.git"
 
   }
 }
