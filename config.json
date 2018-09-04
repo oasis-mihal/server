@@ -1,7 +1,7 @@
 {
     "httpConfig":
     {
-        "port": 12779
+        "port": 8080
     },
     "maxPayload": 
         1048576,
