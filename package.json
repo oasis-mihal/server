@@ -15,12 +15,5 @@
   },
   "scripts": {
     "tsc": "tsc"
-    },
-  "repository": {
-
-    "type": "git",
-
-    "url": "http://github.com/oasis-mihal/server.git"
-
-  }
+    }
 }

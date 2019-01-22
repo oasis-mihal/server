@@ -27,7 +27,6 @@ for (var _i = 0, _a = config.apps; _i < _a.length; _i++) {
         //the websocket library crashes if big messages are received (eg.128mb) no matter which payload is set!!!
         var webSocket = new ws.Server({ server: httpServer, path: app.path, maxPayload: config.maxPayload, perMessageDeflate: false });
         websocketSignalingServer.addSocketServer(webSocket, app);
-        console.log('Starting socket ');
     }
     if (httpsServer) {
         var webSocketSecure = new ws.Server({ server: httpsServer, path: app.path, maxPayload: config.maxPayload, perMessageDeflate: false }); //problem in the typings -> setup to only accept http not https so cast to any to turn off typechecks
